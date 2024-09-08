@@ -3,7 +3,8 @@
 {
     "name": "gcloud",
     // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-    "image": "google/cloud-sdk",
+    //"image": "google/cloud-sdk",
+    "image": "google/cloud-sdk:alpine",
     // "features": {
     //     "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
     //     "ghcr.io/audacioustux/devcontainers/k9s:1": {}
